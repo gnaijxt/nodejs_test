@@ -5,8 +5,8 @@ console.log(exports===module.exports);
 module.exports.name='b'
 exports.name='a'
 
-console.log(exports); //{ name: 'b' }
-console.log(module.exports); //{ name: 'b' }
+console.log(exports); //{ name: 'a' }
+console.log(module.exports); //{ name: 'a' }
 
 module.exports={
     name:'zs',
